@@ -1,0 +1,18 @@
+task init() {
+    println()
+    println "Introduction to Object-Oriented Programming & Design Principles"
+    println "Animals Demo Application"
+    println new Date()
+    println()
+    }
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.redlich.animals.AnimalsApp'
+
+jar {
+	baseName = 'animals'
+	version = '1.0.0'
+	}
+
