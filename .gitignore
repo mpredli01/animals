@@ -1,5 +1,5 @@
 build/
-.gitignore/
 .gradle/
 .idea/
+.gitignore
 *.iml

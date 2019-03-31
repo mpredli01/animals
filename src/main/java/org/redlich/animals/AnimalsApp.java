@@ -14,11 +14,12 @@ public class AnimalsApp {
     public static void main(String[] args) {
         AnimalsApp animalsApp = new AnimalsApp();
 
-		Animal dog = new Dog();
-		System.out.println("The dog says, " + dog.speak());
-
 		Animal cat = new Cat();
 		System.out.println("The cat says, " + cat.speak());
+
+		Animal cow = new Cow();
+		System.out.println("The cow says, " + cow.speak());
+
 		}
 	}
 

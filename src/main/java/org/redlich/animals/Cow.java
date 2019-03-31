@@ -1,26 +1,26 @@
 /**
- * Dog.java
+ * Cow.java
  * @version 1.0.0 3/19/2015
  * @author Michael P. Redlich
  */
 
 package org.redlich.animals;
 
-public class Dog implements Animal {
+public class Cow implements Animal {
     /**
      * Implementation of the method declared in the Animal interface.
      *
      * @see Animal
      */
     public String speak() {
-		return bark();
+		return moo();
 		}
 
     /**
-     * Writes out the sound the dog makes.
+     * Writes out the sound the cow makes.
      */
-    public String bark() {
-		return "woof";
+    public String moo() {
+		return "moo";
 		}
 	}
 
