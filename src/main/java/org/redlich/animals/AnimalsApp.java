@@ -13,13 +13,27 @@ public class AnimalsApp {
      */
     public static void main(String[] args) {
         AnimalsApp animalsApp = new AnimalsApp();
+        animalsApp.displayHeader();
 
 		Animal cat = new Cat();
-		System.out.println("The cat says, " + cat.speak());
+		System.out.println("The cat says, " + "\"" + cat.speak() + "\"");
 
 		Animal cow = new Cow();
-		System.out.println("The cow says, " + cow.speak());
+		System.out.println("The cow says, " + "\"" + cow.speak() + "\"");
 
 		}
+
+	/**
+	 *
+	 */
+	void displayHeader() {
+		System.out.println();
+		System.out.println("*--------------------------------------------------*");
+		System.out.println("* Introduction to OOP & Design Principles          *");
+		System.out.println("* Animals Demo Application                         *");
+		System.out.println("*--------------------------------------------------*");
+		System.out.println();
+		}
 	}
+
 

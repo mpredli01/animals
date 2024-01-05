@@ -4,6 +4,6 @@ apply plugin: 'application'
 mainClassName = 'org.redlich.animals.AnimalsApp'
 
 jar {
-	baseName = 'animals'
-	version = '1.0.0'
+	archiveBaseName = 'animals'
+	archiveVersion = '1.0.0'
 	}
